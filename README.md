@@ -18,8 +18,11 @@ The data that we need must named like this:
 and I also recommand you Store these folders in one same folder, and don't use subfolder.
 
 second, if you want to run the "lab3.ipynb", you need Notice two part of my code, Of course, these modifications are very simple.
-1. you need to change the  variable 'filePath' according your actual situation， you need change this variable to the file path of data and model, for example if you store the data and model in "C:\Users\Desktop\MLforCyber\lab3", then you need change the 'filePath' to  "C:/Users/Desktop/MLforCyber/lab3/".
-2. During the code running process, three models(model_X=2.h5,model_X=4.h5,model_X=10.h5)  will be generated, which will be used in our code later. So after generating the models, download these models from Jupyter to your local folder. This folder should be consistent with 'filePath'. (Of course, if you have already downloaded models I uploaded, you don't need to worry about these, just run the code directly)
+1. you need to change the  variable 'filePath' according your actual situation， you need change this variable to the file path of data and model, for example if you store the data and model in "C:\Users\Desktop\MLforCyber\lab3", then you need change the 'filePath' to  "C:/Users/Desktop/MLforCyber/lab3/". 
+ 
+   ps:you need noticed that the 'filePath' ends with'/', don't forget to add this '/'.
+
+3. During the code running process, three models(model_X=2.h5,model_X=4.h5,model_X=10.h5)  will be generated, which will be used in our code later. So after generating the models, download these models from Jupyter to your local folder. This folder should be consistent with 'filePath'.In other word, you need to use the folder where you saved the data and the initial model.(Of course, if you have already downloaded models I uploaded, you don't need to worry about these, just run the code directly)
 
 
 finally, you do all the thing , just run the code, and waiting for the result
